@@ -13,6 +13,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *priceLabel;
 @property (weak, nonatomic) IBOutlet UIView *tagBaseView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *tagHeight;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *tagWidth;
 -(void)sendValueForCellWith:(NSDictionary*)model;
 @end

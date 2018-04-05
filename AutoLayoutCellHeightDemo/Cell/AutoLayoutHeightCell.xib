@@ -40,8 +40,7 @@
                         <rect key="frame" x="15" y="39" width="345" height="20"/>
                         <color key="backgroundColor" red="0.95686274770000002" green="0.65882354970000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="20" id="ABu-7p-irZ"/>
-                            <constraint firstAttribute="width" constant="345" id="iXn-EJ-e9D"/>
+                            <constraint firstAttribute="height" priority="750" constant="20" id="ABu-7p-irZ"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -62,7 +61,6 @@
                 <outlet property="priceLabel" destination="V8x-vh-Zkk" id="edP-bi-Saf"/>
                 <outlet property="tagBaseView" destination="9za-tm-h2B" id="qyJ-CQ-7Lp"/>
                 <outlet property="tagHeight" destination="ABu-7p-irZ" id="Qfb-Iz-9gf"/>
-                <outlet property="tagWidth" destination="iXn-EJ-e9D" id="bw1-J1-Ddu"/>
                 <outlet property="titleLabel" destination="lgB-NJ-G33" id="SkT-rn-9HU"/>
             </connections>
             <point key="canvasLocation" x="24.5" y="37"/>
