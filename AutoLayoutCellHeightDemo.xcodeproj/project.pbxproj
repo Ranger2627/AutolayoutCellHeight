@@ -15,6 +15,14 @@
 		042D80592074FC8F00381C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D80582074FC8F00381C29 /* main.m */; };
 		042D80632074FCB700381C29 /* AutoLayoutHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D80612074FCB700381C29 /* AutoLayoutHeightCell.m */; };
 		042D80642074FCB700381C29 /* AutoLayoutHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042D80622074FCB700381C29 /* AutoLayoutHeightCell.xib */; };
+		04C3A298207A4C4D00479F94 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C3A297207A4C4D00479F94 /* HeaderView.xib */; };
+		04C3A29B207A4C5F00479F94 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3A29A207A4C5F00479F94 /* HeaderView.m */; };
+		04CCB1742077BDA0006B80B3 /* AdvencedAutoHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCB1732077BDA0006B80B3 /* AdvencedAutoHeightController.m */; };
+		04CCB17A2077BE9A006B80B3 /* AutoHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCB1772077BE9A006B80B3 /* AutoHeightCell.m */; };
+		04CCB17B2077BE9A006B80B3 /* AutoHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCB1782077BE9A006B80B3 /* AutoHeightCell.xib */; };
+		04CCB17E2077BEC0006B80B3 /* AutoRowHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCB17C2077BEC0006B80B3 /* AutoRowHeightController.m */; };
+		04FD469C207A59BD00D627B6 /* CHDisclosureIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FD4699207A59BD00D627B6 /* CHDisclosureIndicatorView.xib */; };
+		04FD469D207A59BD00D627B6 /* CHDisclosureIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD469B207A59BD00D627B6 /* CHDisclosureIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,19 @@
 		042D80602074FCB700381C29 /* AutoLayoutHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutHeightCell.h; sourceTree = "<group>"; };
 		042D80612074FCB700381C29 /* AutoLayoutHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutHeightCell.m; sourceTree = "<group>"; };
 		042D80622074FCB700381C29 /* AutoLayoutHeightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutHeightCell.xib; sourceTree = "<group>"; };
+		04C3A297207A4C4D00479F94 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		04C3A299207A4C5F00479F94 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		04C3A29A207A4C5F00479F94 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		04CCB1722077BDA0006B80B3 /* AdvencedAutoHeightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvencedAutoHeightController.h; sourceTree = "<group>"; };
+		04CCB1732077BDA0006B80B3 /* AdvencedAutoHeightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvencedAutoHeightController.m; sourceTree = "<group>"; };
+		04CCB1772077BE9A006B80B3 /* AutoHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHeightCell.m; sourceTree = "<group>"; };
+		04CCB1782077BE9A006B80B3 /* AutoHeightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoHeightCell.xib; sourceTree = "<group>"; };
+		04CCB1792077BE9A006B80B3 /* AutoHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHeightCell.h; sourceTree = "<group>"; };
+		04CCB17C2077BEC0006B80B3 /* AutoRowHeightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoRowHeightController.m; sourceTree = "<group>"; };
+		04CCB17D2077BEC0006B80B3 /* AutoRowHeightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRowHeightController.h; sourceTree = "<group>"; };
+		04FD4699207A59BD00D627B6 /* CHDisclosureIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHDisclosureIndicatorView.xib; sourceTree = "<group>"; };
+		04FD469A207A59BD00D627B6 /* CHDisclosureIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDisclosureIndicatorView.h; sourceTree = "<group>"; };
+		04FD469B207A59BD00D627B6 /* CHDisclosureIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDisclosureIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +88,9 @@
 				042D804A2074FC8E00381C29 /* AppDelegate.m */,
 				042D804C2074FC8F00381C29 /* ViewController.h */,
 				042D804D2074FC8F00381C29 /* ViewController.m */,
-				042D805F2074FC9B00381C29 /* Cell */,
+				04C3A296207A4C2800479F94 /* AutoView */,
+				04CCB1752077BE1D006B80B3 /* AutoCellHeight(初级自动行高) */,
+				04CCB1712077BD62006B80B3 /* AdvencedAutoHeight(自动行高高级应用) */,
 				042D804F2074FC8F00381C29 /* Main.storyboard */,
 				042D80522074FC8F00381C29 /* Assets.xcassets */,
 				042D80542074FC8F00381C29 /* LaunchScreen.storyboard */,
@@ -85,6 +108,49 @@
 				042D80622074FCB700381C29 /* AutoLayoutHeightCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		04C3A296207A4C2800479F94 /* AutoView */ = {
+			isa = PBXGroup;
+			children = (
+				04FD469A207A59BD00D627B6 /* CHDisclosureIndicatorView.h */,
+				04FD469B207A59BD00D627B6 /* CHDisclosureIndicatorView.m */,
+				04FD4699207A59BD00D627B6 /* CHDisclosureIndicatorView.xib */,
+				04C3A299207A4C5F00479F94 /* HeaderView.h */,
+				04C3A29A207A4C5F00479F94 /* HeaderView.m */,
+				04C3A297207A4C4D00479F94 /* HeaderView.xib */,
+			);
+			path = AutoView;
+			sourceTree = "<group>";
+		};
+		04CCB1712077BD62006B80B3 /* AdvencedAutoHeight(自动行高高级应用) */ = {
+			isa = PBXGroup;
+			children = (
+				042D805F2074FC9B00381C29 /* Cell */,
+				04CCB1722077BDA0006B80B3 /* AdvencedAutoHeightController.h */,
+				04CCB1732077BDA0006B80B3 /* AdvencedAutoHeightController.m */,
+			);
+			path = "AdvencedAutoHeight(自动行高高级应用)";
+			sourceTree = "<group>";
+		};
+		04CCB1752077BE1D006B80B3 /* AutoCellHeight(初级自动行高) */ = {
+			isa = PBXGroup;
+			children = (
+				04CCB17D2077BEC0006B80B3 /* AutoRowHeightController.h */,
+				04CCB17C2077BEC0006B80B3 /* AutoRowHeightController.m */,
+				04CCB1762077BE88006B80B3 /* cell */,
+			);
+			path = "AutoCellHeight(初级自动行高)";
+			sourceTree = "<group>";
+		};
+		04CCB1762077BE88006B80B3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				04CCB1792077BE9A006B80B3 /* AutoHeightCell.h */,
+				04CCB1772077BE9A006B80B3 /* AutoHeightCell.m */,
+				04CCB1782077BE9A006B80B3 /* AutoHeightCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +211,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CCB17B2077BE9A006B80B3 /* AutoHeightCell.xib in Resources */,
 				042D80562074FC8F00381C29 /* LaunchScreen.storyboard in Resources */,
 				042D80642074FCB700381C29 /* AutoLayoutHeightCell.xib in Resources */,
+				04C3A298207A4C4D00479F94 /* HeaderView.xib in Resources */,
 				042D80532074FC8F00381C29 /* Assets.xcassets in Resources */,
+				04FD469C207A59BD00D627B6 /* CHDisclosureIndicatorView.xib in Resources */,
 				042D80512074FC8F00381C29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +229,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				042D804E2074FC8F00381C29 /* ViewController.m in Sources */,
+				04CCB1742077BDA0006B80B3 /* AdvencedAutoHeightController.m in Sources */,
 				042D80632074FCB700381C29 /* AutoLayoutHeightCell.m in Sources */,
+				04C3A29B207A4C5F00479F94 /* HeaderView.m in Sources */,
+				04FD469D207A59BD00D627B6 /* CHDisclosureIndicatorView.m in Sources */,
+				04CCB17A2077BE9A006B80B3 /* AutoHeightCell.m in Sources */,
+				04CCB17E2077BEC0006B80B3 /* AutoRowHeightController.m in Sources */,
 				042D80592074FC8F00381C29 /* main.m in Sources */,
 				042D804B2074FC8E00381C29 /* AppDelegate.m in Sources */,
 			);
