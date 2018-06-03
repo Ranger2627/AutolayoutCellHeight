@@ -8,6 +8,7 @@
 
 #import "AutoRowHeightController.h"
 #import "AutoHeightCell.h"
+#import "HeaderView.h"
 #define MainWidth [UIScreen mainScreen].bounds.size.width
 #define MainHeight [UIScreen mainScreen].bounds.size.height
 
@@ -44,6 +45,10 @@
         _baseTableView.rowHeight = UITableViewAutomaticDimension;
         //此处为注册xib创建的cell的实现代码，不写这个会崩溃哦:)
         [_baseTableView registerNib:[UINib nibWithNibName:@"AutoHeightCell" bundle:nil] forCellReuseIdentifier:@"AutoHeightCell"];
+//        HeaderView *jackHeaderView = [HeaderView creatHeaterView];
+//        [_baseTableView beginUpdates];
+//        [_baseTableView setTableHeaderView:jackHeaderView];
+//        [_baseTableView endUpdates];
     }
     return _baseTableView;
 }

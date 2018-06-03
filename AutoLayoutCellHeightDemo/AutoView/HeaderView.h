@@ -11,4 +11,5 @@
 @interface HeaderView : UIView
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
 @property (copy, nonatomic) NSString *titleString;
++(instancetype)creatHeaterView;
 @end

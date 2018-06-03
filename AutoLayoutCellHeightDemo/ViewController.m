@@ -9,13 +9,8 @@
 #import "ViewController.h"
 #import "AutoRowHeightController.h"
 #import "AdvencedAutoHeightController.h"
-#import "HeaderView.h"
-#import "CHDisclosureIndicatorView.h"
-
 
 @interface ViewController ()
-@property(strong,nonatomic)HeaderView*headerView;
-@property (nonatomic , strong) CHDisclosureIndicatorView *diView;
 
 @end
 
@@ -26,14 +21,8 @@
     self.view.backgroundColor = [UIColor darkGrayColor];
     NSArray *sendTitleArray = @[@"基础",@"高级"];
     [self creatTwoButton:sendTitleArray];
-    [self.view addSubview:self.headerView];
-    [self.view addSubview:self.diView];
 }
 
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBar.hidden = YES;
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -67,27 +56,6 @@
     }
 }
 
--(HeaderView*)headerView{
-    if (!_headerView) {
-        _headerView = [[NSBundle mainBundle]loadNibNamed:@"HeaderView" owner:nil options:nil][0];
-        _headerView.titleString = @"1234534567890-4567893456783456783456783456783456734567";
-    }
-    return _headerView;
-}
 
-- (CHDisclosureIndicatorView *) diView {
-    if (_diView == nil) {
-        _diView = [[[UINib nibWithNibName:@"CHDisclosureIndicatorView" bundle:nil] instantiateWithOwner:nil options:nil] lastObject];
-        _diView.layer.cornerRadius = 5;
-//        _diView.delegate = self;
-        _diView.title = @"默默";
-        _diView.indicator = @"123\n456\n789\n34343\n34343\n34343\n34343";
-        //        _diView.indexPath.section = 0;
-        //        _diView.indexPath.row = 0;
-        _diView.frame = CGRectMake(0, 200, 375, _diView.frame.size.height);
-
-    }
-    return _diView;
-}
 
 @end
